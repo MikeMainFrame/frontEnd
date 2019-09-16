@@ -1,0 +1,40 @@
+body {
+font-size: 1vw;
+font-family: "IBM Plex Sans", sans-serif;
+margin: 0;
+padding: 0;
+font-weight: 300;
+color: #4ff;
+background-color: rgba(16, 16, 16, 1);
+overflow-y: auto;
+}
+div {
+float: left;
+padding: 1vw;
+}
+img {
+float: left;
+max-width: 50vw;
+object-fit: contain;
+}
+.filmBox {
+background-color: rgba(64, 255, 255, 0.2);
+padding: 1vw;
+border-radius: 1vw;
+margin: 2vw;
+}
+.line {
+float: left;
+width: 50vw;
+margin-left: 1vw;
+}
+.lead {
+float: left;
+font-weight: 700;
+margin-left: 1vw;
+}
+.value {
+float: left;
+font-weight: 100;
+margin-left: 1vw;
+}
