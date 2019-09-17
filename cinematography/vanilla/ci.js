@@ -1,7 +1,7 @@
 (function main(what) {
 
   const cinemaList = async (what) => {
-    const res = await axios.get('http://www.omdbapi.com' + what + '&apikey=9022e30')
+    const res = await axios.get('http://www.omdbapi.com' + what + '&apikey=_______')
     return res.data;
   }
 
