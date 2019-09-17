@@ -20,6 +20,5 @@
     })
   })
 
-
 }
 )(window.location.search)
