@@ -10,7 +10,6 @@ class App extends React.Component {
     this.getData(window.location.search);
   }
   getData = async (what) => {
-
     let res = await axios.get('http://www.omdbapi.com' + what + '&apikey=_______')
     this.setState(() => {
       return ({
@@ -25,7 +24,6 @@ class App extends React.Component {
     ))
   }
 }
-
 class Movie extends React.Component {
   render() {
     return (
