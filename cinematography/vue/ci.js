@@ -1,1 +1,11 @@
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+var zTitle = new Vue({
+  el: '#zTitle',
+  data: {
+    todos: [
+      { text: 'Learn JavaScript' },
+      { text: 'Learn Vue' },
+      { text: 'Build something awesome' }
+    ]
+  }
+})
