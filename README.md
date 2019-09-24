@@ -9,16 +9,10 @@ The other problem was state - I have numerous ways of maintain state, but MVC is
 
 I 2006 I make my first web shop - and with about 200 lines of script i supported FF and IE using XmlhttpRequest
 
-I have made a lot of SPAs since and had some fun with jquery - but does use it.
-
-
+I have made a lot of SPAs since and had some fun with jquery - but does not use it.
 
 Angular
 React
 Vue
 Javascript
 
-# frontEnd
-Various solutions on same theme - but different methods
-vanilla - is just plain javascript interactiong with DOM directly
-React - is an ektra layer - should by lean and with state - uses browser inbuilt functionallity
