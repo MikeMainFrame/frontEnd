@@ -1,11 +1,15 @@
-
-var zTitle = new Vue({
+new Vue({
   el: '#zTitle',
   data: {
-    todos: [
-      { text: 'Learn JavaScript' },
-      { text: 'Learn Vue' },
-      { text: 'Build something awesome' }
-    ]
+    movies: [
+        { "Title": "Space Odyssey 2001" },
+        { "Title": "Space Odyssey 2010" }
+      ]
+    
+  },
+  mounted() {
+    axios
+      .get('http://www.omdbapi.com' + window.location.search + '&apikey=______')
+      .then(response => (this.movies = response.data.Search))
   }
 })
